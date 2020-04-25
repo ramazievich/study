@@ -65,3 +65,33 @@
   display: block;
   color: black;
 }
+
+.about-product {
+  height: 350px;
+}
+
+.about-product-wpr {
+  float: left;
+}
+
+.about-product-title {
+  width: 649px;
+  height: 63px;
+  font-size: 30px;
+  color: #445161;
+}
+
+.about-product-description {
+  width: 649px;
+  height: 63px;
+  color: #333333;
+  font-size: 16px;
+}
+.about-product-img {
+  width: 432px;
+  height: 248px;
+  background-color: #445161;
+  float: right;
+  display: block;
+  color: white;
+}
