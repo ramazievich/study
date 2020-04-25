@@ -23,7 +23,6 @@ container {
 }
 
 .main-header-title {
-  border: 1px solid red;
 
 }
 
@@ -40,4 +39,5 @@ container {
   height: 217px;
   background-color: #ffffff;
   display: block;
-  }
+  
+}
