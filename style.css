@@ -1,3 +1,42 @@
-body {
-  background-color: rgb(255, 255, 128);
+container {
+  width: 1280;
+  margin: 0 auto;
+  border: 3px solid red;
+  box-sizing: border-box;
+  font-family: Arial;
 }
+
+.padding-site {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.main-header {
+  width: 100%;
+  background-color: #445162;
+  color: white;
+}
+
+.main-header-wpr {
+  border: 1px solid red;
+
+}
+
+.main-header-title {
+
+}
+
+.main-header-list {
+
+}
+
+.main-header-list-item {
+
+}
+
+.main-header-img {
+  width: 472px;
+  height: 217px;
+  background-color: #ffffff;
+  display: block;
+  }
