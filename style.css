@@ -37,7 +37,7 @@
   margin: 0;
   padding: 0 0 0 20px;
 }
-/*замена маркеров на галочки*/
+/*замена маркеров на картинки галочки*/
 .main-header-list-item {
   list-style-type: none;
   position: relative;
