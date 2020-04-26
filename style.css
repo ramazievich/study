@@ -49,7 +49,6 @@
   display: block;
   width: 20px;
   height: 20px;
-  /*border: 1px solid white;*/
   position: absolute;
   top: -3px;
   left: -20px;
@@ -101,7 +100,6 @@
   width: 100%;
   padding: 50px;
   box-sizing: border-box;
-  /*border: 1px solid black;*/
   display: flex;
   flex-wrap: wrap;
 }
@@ -120,7 +118,6 @@
 .dignity-pluses-wrp {
   width: 50%;
   box-sizing: border-box;
-  /*border: 1px solid black;*/
 }
 
 .dignity-pluses-point {
@@ -162,4 +159,48 @@
   position: absolute;
   top: 0;
   left: -30px;
+}
+
+.screenshot {
+  height: 490px;
+}
+
+.screenshots-title {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  color: #445161;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.screenshots-box {
+  float: left;
+  width: 574px;
+  margin: 0 16px 30px 0;
+}
+
+.screenshots-img {
+  width: 200px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 0 15px 0 0;
+  background-color: #445161;
+  color: white;
+}
+
+.screenshots-box-in-title {
+  width: 310px;
+  color: #445161;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.screenshots-box-in-description {
+  width: 100%;
+
+  text-align: justify;
 }
