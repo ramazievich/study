@@ -132,15 +132,20 @@
 }
 
 .dignity-pluses-point-description {
-  display: block;
   outline: none;
   position: relative;
   width: 528px;
   text-align: justify;
 }
 
+/*для Chrome*/
 .dignity-pluses-point-description::-webkit-details-marker {
   display: none;
+}
+
+/*для Firefox*/
+.dignity-pluses-point-description {
+  display: block;
 }
 
 .dignity-pluses-point-description:before {
