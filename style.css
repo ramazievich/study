@@ -355,6 +355,8 @@
 }
 .contacts-social {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .form {
   width: 500px;
@@ -363,7 +365,7 @@
   flex-direction: column;
   justify-content: flex-end;
   margin-left: 200px;
-  margin: 0 auto;
+  margin: 0 50px 0 200px;
 }
 .example_form {
   display: block;
@@ -402,10 +404,16 @@
   border-radius: 5px;
   background-color: #fff;
   padding: 13px 3px 13px 3px;
-  margin-left: 20px 0 0 180px;
+  margin: 20px 0 0 180px;
+
 }
 .buttom-send:hover {
   background-color: #47be23;
+  color: #fff;
+}
+.buttom-send:active {
+  background-color: rgb(34, 218, 231);
+  color: #fff;
 }
 
 li {
@@ -413,7 +421,7 @@ li {
 }
 
 .social {
-  margin: 24px;
+  margin: 24px 0 0 0;
 }
 .social-list {
   color: white;
@@ -421,8 +429,19 @@ li {
   line-height: 24px;
   font-weight: 400;
   color: #ffffff;
-  margin: 0 0 35px 0;
+  margin: 0 0 25px 0;
 }
-.img-in-social-list {
-  margin: 0 0 0 0;
+.social-ul-img {
+  margin-right: 9px;
+}
+.social_buttons-img {
+  margin-top: 30px 0 0 0;
+}
+
+.copyright {
+  background-color: #f5f5f5;
+  color: #445162;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  
 }
