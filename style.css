@@ -295,3 +295,134 @@
   font-weight: 400;
   color: rgb(152, 152, 152);
 }
+
+.buy {
+  min-height: 660px;
+}
+
+.buy-title {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 400;
+  color: #445161;
+}
+.tariff-plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: ;
+}
+.tariff-plans-box {
+  width: 300px;
+  height: 306px;
+  box-sizing: border-box;
+  border: 2px solid #445162;
+  border-radius: 4px;
+}
+.tariff-h3 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #445162;
+  color: #fff;
+  font-size: 24px;
+}
+.tariff-prise {
+  font-size: 40px;
+  color: #445162;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  min-height: 540px;
+  background-color: #445162;
+}
+
+.contacts-title {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+}
+.contacts-social {
+  display: flex;
+}
+.form {
+  width: 500px;
+  min-height: 354px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 200px;
+  margin: 0 auto;
+}
+.example_form {
+  display: block;
+  width: 500px;
+  height: 40px;
+  text-align: left;
+  font-size: 16px;
+  color: #445162;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.message_form {
+  width: 504px;
+  min-height: 170px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: #445162;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.color-text {
+  color: #0bc724;
+}
+.buttom-send {
+  display: block;
+  width: 140px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #445162;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 13px 3px 13px 3px;
+  margin-left: 20px 0 0 180px;
+}
+.buttom-send:hover {
+  background-color: #47be23;
+}
+
+li {
+  list-style-type: none;
+}
+
+.social {
+  margin: 24px;
+}
+.social-list {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 35px 0;
+}
+.img-in-social-list {
+  margin: 0 0 0 0;
+}
