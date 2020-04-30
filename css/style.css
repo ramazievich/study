@@ -297,7 +297,7 @@
 }
 
 .buy {
-  min-height: 660px;
+  width: 100%;
 }
 
 .buy-title {
@@ -308,41 +308,105 @@
   font-weight: 400;
   color: #445161;
 }
+
+.buy-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+
 .tariff-plans {
+  height: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
-  align-content: ;
+  align-items: flex-end;
 }
 .tariff-plans-box {
-  width: 300px;
-  height: 306px;
+  border: 2px solid #445161;
   box-sizing: border-box;
-  border: 2px solid #445162;
   border-radius: 4px;
 }
-.tariff-h3 {
-  height: 50px;
-  display: flex;
-  justify-content: center;
+
+.tariff-plans-box:nth-child(2) {
+  width: 300px;
+  height: 404px;
   margin: 0 auto;
+  align-self: flex-end;
+  background-color: #445161;
+}
+
+.tariff-plans-box:nth-child(3) {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  align-self: flex-end;
+  background-color: #445161;
+}
+.tariff-plans-box:nth-child(1) {
+  width: 300px;
+  height: 306px;
+  margin: 0 auto;
+  align-self: flex-end;
+  background-color: #445161;
+}
+
+.tariff-h3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   background-color: #445162;
-  color: #fff;
+  color: white;
+  height: 50px;
+  margin: 0 auto;
   font-size: 24px;
+  font-weight: 400;
 }
 .tariff-prise {
-  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
   color: #445162;
+  height: 70px;
+  margin: 0 auto;
   font-size: 40px;
-  line-height: 30px;
   font-weight: 400;
-  text-align: center;
+}
+.tariff-ol {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+  background-color: #445162;
+}
+.tariff-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #445162;
+  width: 240px;
+  height: 41px;
+  margin: 0 auto;
+  font-size: 26px;
+  border-radius: 5px;
 }
 
 .footer {
   width: 100%;
   min-height: 540px;
   background-color: #445162;
+}
+.tariff-li {
 }
 
 .contacts-title {
@@ -391,13 +455,14 @@
 }
 
 .color-text {
-  color: #0bc724;
+  color: #445162;
 }
 .buttom-send {
   display: block;
+  height: 16px;
   width: 140px;
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   color: #445162;
@@ -405,7 +470,6 @@
   background-color: #fff;
   padding: 13px 3px 13px 3px;
   margin: 20px 0 0 180px;
-
 }
 .buttom-send:hover {
   background-color: #47be23;
@@ -416,7 +480,7 @@
   color: #fff;
 }
 
-li {
+li.social-list {
   list-style-type: none;
 }
 
@@ -431,6 +495,10 @@ li {
   color: #ffffff;
   margin: 0 0 25px 0;
 }
+.social-ul {
+  margin: 0 0 0 -37px;
+}
+
 .social-ul-img {
   margin-right: 9px;
 }
@@ -443,5 +511,4 @@ li {
   color: #445162;
   text-align: center;
   padding: 5px 0 5px 0;
-  
 }
