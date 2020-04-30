@@ -135,7 +135,6 @@
 }
 
 .dignity-pluses-point-description {
-  outline: none;
   position: relative;
   width: 528px;
   text-align: justify;
@@ -249,7 +248,12 @@
 
 .reviews-box {
   display: flex;
-  margin: 5px;
+  margin: 0 0 20px 0;
+}
+
+.reviews-box:nth-child(3),
+.reviews-box:nth-child(4) {
+  margin: 0;
 }
 
 .reviews-img {
@@ -332,7 +336,7 @@
 
 .tariff-plans-box:nth-child(2) {
   width: 300px;
-  height: 404px;
+  min-height: 404px;
   margin: 0 auto;
   align-self: flex-end;
   background-color: #445161;
@@ -340,14 +344,14 @@
 
 .tariff-plans-box:nth-child(3) {
   width: 300px;
-  height: 500px;
+  min-height: 500px;
   margin: 0 auto;
   align-self: flex-end;
   background-color: #445161;
 }
 .tariff-plans-box:nth-child(1) {
   width: 300px;
-  height: 306px;
+  min-height: 306px;
   margin: 0 auto;
   align-self: flex-end;
   background-color: #445161;
@@ -398,6 +402,23 @@
   height: 41px;
   margin: 0 auto;
   font-size: 26px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.tariff-button:hover {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #445162;
+  color: #fff;
+  width: 240px;
+  height: 41px;
+  margin: 0 auto;
+  font-size: 26px;
+  text-transform: uppercase;
   border-radius: 5px;
 }
 
@@ -458,10 +479,12 @@
   color: #445162;
 }
 .buttom-send {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 16px;
   width: 140px;
-  text-align: center;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -470,14 +493,17 @@
   background-color: #fff;
   padding: 13px 3px 13px 3px;
   margin: 20px 0 0 180px;
+  text-transform: uppercase;
 }
 .buttom-send:hover {
   background-color: #47be23;
   color: #fff;
+  text-transform: uppercase;
 }
 .buttom-send:active {
   background-color: rgb(34, 218, 231);
   color: #fff;
+  text-transform: uppercase;
 }
 
 li.social-list {
