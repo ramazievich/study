@@ -291,7 +291,7 @@
   color: #333333;
   margin: 0 0 5px 0;
 }
-.reviews-txt-autor {
+.reviews-txt-author {
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -337,24 +337,27 @@
 .tariff-plans-box:nth-child(2) {
   width: 300px;
   min-height: 404px;
-  margin: 0 auto;
+  margin: 0;
   align-self: flex-end;
   background-color: #445161;
+  padding-bottom: 20px;
 }
 
 .tariff-plans-box:nth-child(3) {
   width: 300px;
   min-height: 500px;
-  margin: 0 auto;
+  margin: 0;
   align-self: flex-end;
   background-color: #445161;
+  padding-bottom: 20px;
 }
 .tariff-plans-box:nth-child(1) {
   width: 300px;
   min-height: 306px;
-  margin: 0 auto;
+  margin: 0;
   align-self: flex-end;
   background-color: #445161;
+  padding-bottom: 20px;
 }
 
 .tariff-h3 {
@@ -491,9 +494,10 @@
   color: #445162;
   border-radius: 5px;
   background-color: #fff;
-  padding: 13px 3px 13px 3px;
+  padding: 10px 3px 10px 2px;
   margin: 20px 0 0 180px;
   text-transform: uppercase;
+  box-sizing: content-box;
 }
 .buttom-send:hover {
   background-color: #47be23;
@@ -525,10 +529,24 @@ li.social-list {
 .social-ul {
   margin: 0 0 0 -37px;
 }
+.social-list-linc {
+  text-decoration: none;
+  color: #fff;
+}
 
-.social-ul-img {
+.social-list-linc:hover {
+  color: #ccc;
+}
+.social-list-linc:active {
+  color: #fff;
+}
+.object-svg {
   margin-right: 9px;
 }
+.social-ul-img:hover {
+  fill: #ccc;
+}
+
 .social_buttons-img {
   margin-top: 30px 0 0 0;
 }
