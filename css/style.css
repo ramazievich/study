@@ -512,6 +512,7 @@ li.social-list {
 
 .social {
   margin: 24px 0 0 0;
+  min-width: 400px;
 }
 .social-list {
   color: white;
@@ -530,6 +531,45 @@ li.social-list {
 }
 .social_buttons-img {
   margin-top: 30px 0 0 0;
+}
+
+.icons-all {
+}
+
+.social2 a {
+  text-align: center;
+  width: 33px;
+  height: 33px;
+  float: left;
+  background: #fff;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #445162;
+}
+.twitter a:hover {
+  background: #00acee;
+  color: #fff;
+}
+
+.facebook a:hover {
+  background: #3b5998;
+  color: #fff;
+}
+.linkedin a:hover {
+  background: #0e76a8;
+  color: #fff;
+}
+
+.google a:hover {
+  background: rgb(252, 252, 252);
+  color: #4285f4;
+}
+.youtube a:hover {
+  background: #c4302b;
+  color: #fff;
 }
 
 .copyright {
