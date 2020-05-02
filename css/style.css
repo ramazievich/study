@@ -1,9 +1,17 @@
+body {
+  background-image: url(/img/background-image-2.jpg),
+    url(/img/background-image-2.jpg), url(/img/background-image-1.jpg);
+  background-repeat: repeat-x, repeat-x, repeat;
+  background-position: top, bottom, center;
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;
 
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
 }
 
 .padding-site {
@@ -325,7 +333,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: flex-end;
 }
 .tariff-plans-box {
