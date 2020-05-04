@@ -78,6 +78,13 @@ body {
   min-height: 350px;
 }
 
+.about-product:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
 .about-product-wpr {
   float: left;
 }
@@ -245,8 +252,8 @@ body {
 }
 
 .reviews-boxes {
-  min-width: 1280px;
-  margin-top: 25px;
+  /* min-width: 1280px; */
+  /* height: 100%; */
 
   display: flex;
   align-items: flex-start;
@@ -403,10 +410,7 @@ body {
 }
 .tariff-button {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
   background-color: #fff;
   color: #445162;
   width: 240px;
@@ -491,22 +495,25 @@ body {
 }
 .buttom-send {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
-  align-items: center;
+
   height: 16px;
   width: 140px;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   color: #445162;
+  outline: none;
   border-radius: 5px;
+
   background-color: #fff;
   padding: 10px 3px 10px 2px;
   margin: 20px 0 0 180px;
   text-transform: uppercase;
   box-sizing: content-box;
 }
+
 .buttom-send:hover {
   background-color: #47be23;
   color: #fff;
@@ -524,22 +531,22 @@ li.social-list {
 
 .social {
   margin: 24px 0 0 0;
-  min-width: 400px;
+  min-width: 300px;
 }
+
 .social-list {
-  color: white;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-list-linc {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #ffffff;
-  margin: 0 0 25px 0;
-}
-.social-ul {
-  margin: 0 0 0 -37px;
-}
-.social-list-linc {
   text-decoration: none;
   color: #fff;
+  margin: 0 0 25px 0;
 }
 
 .social-list-linc:hover {
