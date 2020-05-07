@@ -555,11 +555,58 @@ li.social-list {
   fill: #ccc;
 }
 
-.social_buttons-img {
-  margin-top: 30px 0 0 0;
+.social-icons-all {
+  display: flex;
+}
+.social-icons-all-2 {
+  display: block;
+  width: 43px;
+  height: 42px;
+  background-image: url(/img/sprite-social.png);
+}
+.social-icons-all-2:nth-child(1) {
+  background-position: 0 0;
 }
 
-.icons-all {
+.social-icons-all-2:nth-child(2) {
+  background-position: -49px 0;
+}
+
+.social-icons-all-2:nth-child(3) {
+  background-position: -98px 0;
+}
+
+.social-icons-all-2:nth-child(4) {
+  background-position: -148px 0;
+}
+
+.social-icons-all-2:nth-child(5) {
+  background-position: -198px 0;
+}
+
+.social-icons-all-2:hover:nth-child(1) {
+  background-position: 0 42px;
+}
+
+.social-icons-all-2:hover:nth-child(2) {
+  background-position: -49px 42px;
+}
+
+.social-icons-all-2:hover:nth-child(3) {
+  background-position: -98px 42px;
+}
+
+.social-icons-all-2:hover:nth-child(4) {
+  background-position: -148px 42px;
+}
+
+.social-icons-all-2:hover:nth-child(5) {
+  background-position: -198px 42px;
+}
+
+/*
+.social_buttons-img {
+  margin-top: 30px 0 0 0;
 }
 
 .social2 a {
@@ -597,7 +644,7 @@ li.social-list {
   background: #c4302b;
   color: #fff;
 }
-
+*/
 .copyright {
   background-color: #f5f5f5;
   color: #445162;
