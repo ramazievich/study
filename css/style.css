@@ -1,3 +1,6 @@
+:root {
+  --main-bg-color: rgb(68, 81, 98);
+}
 body {
   background-image: url(/img/background-image-2.jpg),
     url(/img/background-image-2.jpg), url(/img/background-image-1.jpg);
@@ -21,7 +24,7 @@ body {
 
 .main-header {
   width: 100%;
-  background-color: #445162;
+  background-color: var(--main-bg-color);
   color: white;
 }
 /*Отмена обтекания через псевдоэлемент*/
@@ -381,7 +384,7 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #445162;
+  background-color: var(--main-bg-color);
   color: white;
   height: 50px;
   margin: 0 auto;
@@ -395,7 +398,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: white;
-  color: #445162;
+  color: rgb(68, 81, 98);
   height: 70px;
   margin: 0 auto;
   font-size: 40px;
@@ -406,13 +409,13 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: white;
-  background-color: #445162;
+  background-color: var(--main-bg-color);
 }
 .tariff-button {
   display: flex;
   justify-content: center;
   background-color: #fff;
-  color: #445162;
+  color: var(--main-bg-color);
   width: 240px;
   height: 41px;
   margin: 0 auto;
@@ -427,7 +430,7 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #445162;
+  background-color: var(--main-bg-color);
   color: #fff;
   width: 240px;
   height: 41px;
@@ -440,9 +443,7 @@ body {
 .footer {
   width: 100%;
   min-height: 540px;
-  background-color: #445162;
-}
-.tariff-li {
+  background-color: var(--main-bg-color);
 }
 
 .contacts-title {
@@ -458,6 +459,35 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+input {
+  padding: 0 0 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+input:hover {
+  background-color: #f7f7f7;
+}
+
+input:focus {
+  background-color: #dcffee;
+}
+
+textarea {
+  padding: 10px 0 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+textarea:hover {
+  background-color: #f7f7f7;
+}
+
+textarea:focus {
+  background-color: #dcffee;
+}
+
 .form {
   width: 500px;
   min-height: 354px;
@@ -473,7 +503,7 @@ body {
   height: 40px;
   text-align: left;
   font-size: 16px;
-  color: #445162;
+  color: var(--main-bg-color);
   border-radius: 5px;
   margin-top: 24px;
 }
@@ -484,14 +514,14 @@ body {
   text-align: left;
   font-size: 16px;
   font-weight: 400;
-  color: #445162;
+  color: var(--main-bg-color);
   box-sizing: border-box;
   border-radius: 5px;
   margin-top: 24px;
 }
 
 .color-text {
-  color: #445162;
+  color: var(--main-bg-color);
 }
 .buttom-send {
   display: flex;
@@ -503,7 +533,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  color: #445162;
+  color: var(--main-bg-color);
   outline: none;
   border-radius: 5px;
 
@@ -534,6 +564,9 @@ li.social-list {
   min-width: 300px;
 }
 
+ul.social-ul {
+  margin: 0 0 0 -37px;
+}
 .social-list {
   color: #ffffff;
   display: flex;
@@ -557,9 +590,6 @@ li.social-list {
 }
 .object-svg {
   margin-right: 9px;
-}
-.social-ul-img:hover {
-  fill: #ccc;
 }
 
 .social-icons-all {
@@ -610,51 +640,9 @@ li.social-list {
 .social-icons-all-2:hover:nth-child(5) {
   background-position: -198px 42px;
 }
-
-/*
-.social_buttons-img {
-  margin-top: 30px 0 0 0;
-}
-
-.social2 a {
-  text-align: center;
-  width: 33px;
-  height: 33px;
-  float: left;
-  background: #fff;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
-  margin: 0 10px 10px 0;
-  padding: 6px;
-  color: #445162;
-}
-.twitter a:hover {
-  background: #00acee;
-  color: #fff;
-}
-
-.facebook a:hover {
-  background: #3b5998;
-  color: #fff;
-}
-.linkedin a:hover {
-  background: #0e76a8;
-  color: #fff;
-}
-
-.google a:hover {
-  background: rgb(252, 252, 252);
-  color: #4285f4;
-}
-.youtube a:hover {
-  background: #c4302b;
-  color: #fff;
-}
-*/
 .copyright {
   background-color: #f5f5f5;
-  color: #445162;
+  color: var(--main-bg-color);
   text-align: center;
   padding: 5x 0 5px 0;
 }
