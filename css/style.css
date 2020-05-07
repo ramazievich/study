@@ -151,11 +151,7 @@ template {
 }
 /* конец файла normalize.css*/
 
-/*
-:root {
-  --main-bg-color: rgb(68, 81, 98);
-}
-*/
+
 body {
   background-image: url(/img/background-image-2.jpg),
     url(/img/background-image-2.jpg), url(/img/background-image-1.jpg);
