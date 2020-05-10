@@ -211,7 +211,7 @@ body {
   content: "";
   display: block;
   width: 20px;
-  height: 20px;
+  min-height: 20px;
   position: absolute;
   top: -3px;
   left: -20px;
@@ -221,7 +221,7 @@ body {
 
 .main-header-img {
   width: 472px;
-  height: 217px;
+  min-height: 217px;
   float: right;
   background-color: #ffffff;
   display: block;
@@ -259,7 +259,7 @@ body {
 }
 .about-product-img {
   width: 432px;
-  height: 248px;
+  min-height: 248px;
   background-color: #445161;
   float: right;
   display: block;
@@ -323,7 +323,7 @@ body {
   content: "+";
   display: block;
   width: 25px;
-  height: 25px;
+  min-height: 25px;
   background-color: #445161;
   color: #fff;
   font-size: 22px;
@@ -336,7 +336,7 @@ body {
 }
 
 .screenshot {
-  height: 490px;
+  min-height: 490px;
 }
 
 .screenshots:after {
@@ -370,7 +370,7 @@ body {
 
 .screenshots-img {
   width: 200px;
-  height: 150px;
+  min-height: 150px;
   display: block;
   float: left;
   margin: 0 15px 0 0;
@@ -403,6 +403,7 @@ body {
   font-size: 30px;
   font-weight: 400;
   color: #445161;
+  margin: 0 0 20px 0;
 }
 
 .reviews-boxes {
@@ -412,7 +413,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  height: 100%;
+  min-height: 100%;
 }
 
 .reviews-box {
@@ -490,7 +491,7 @@ body {
 }
 
 .tariff-plans {
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -537,7 +538,7 @@ body {
   align-items: center;
   background-color: #445162;
   color: white;
-  height: 50px;
+  min-height: 50px;
   margin: 0 auto;
   font-size: 24px;
   font-weight: 400;
@@ -550,7 +551,7 @@ body {
   align-items: center;
   background-color: white;
   color: rgb(68, 81, 98);
-  height: 70px;
+  min-height: 70px;
   margin: 0 auto;
   font-size: 40px;
   font-weight: 400;
@@ -568,7 +569,7 @@ body {
   background-color: #fff;
   color: #445162;
   width: 240px;
-  height: 41px;
+  min-height: 41px;
   margin: 0 auto;
   font-size: 26px;
   text-transform: uppercase;
@@ -584,7 +585,7 @@ body {
   background-color: #445162;
   color: #fff;
   width: 240px;
-  height: 41px;
+  min-height: 41px;
   margin: 0 auto;
   font-size: 26px;
   text-transform: uppercase;
@@ -651,7 +652,7 @@ textarea:focus {
 .example_form {
   display: block;
   width: 500px;
-  height: 40px;
+  min-height: 40px;
   text-align: left;
   font-size: 16px;
   color: #445162;
@@ -679,7 +680,7 @@ textarea:focus {
 
   justify-content: center;
 
-  height: 16px;
+  min-height: 16px;
   width: 140px;
   font-size: 16px;
   font-weight: 700;
@@ -749,7 +750,7 @@ ul.social-ul {
 .social-icons-all-2 {
   display: block;
   width: 43px;
-  height: 42px;
+  min-height: 42px;
   background-image: url(/img/sprite-social.png);
 }
 .social-icons-all-2:nth-child(1) {
